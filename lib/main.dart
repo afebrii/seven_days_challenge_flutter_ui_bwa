@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:seven_days_challenge_flutter_ui_bwa/pages/first_splash.dart';
+import 'package:seven_days_challenge_flutter_ui_bwa/pages/first_started.dart';
 import 'package:seven_days_challenge_flutter_ui_bwa/pages/second_splash.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class SevenDays extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SecondSplash(),
+      home: FirstStarted(),
     );
   }
 }
